@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC99D8B122E130A000E57D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8B022E130A000E57D04 /* AppDelegate.swift */; };
+		AC99D8B322E130A000E57D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8B222E130A000E57D04 /* ViewController.swift */; };
+		AC99D8B622E130A100E57D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8B422E130A000E57D04 /* Main.storyboard */; };
+		AC99D8B922E130A100E57D04 /* QlueToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8B722E130A100E57D04 /* QlueToDo.xcdatamodeld */; };
+		AC99D8BB22E130A200E57D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8BA22E130A200E57D04 /* Assets.xcassets */; };
+		AC99D8BE22E130A200E57D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8BC22E130A200E57D04 /* LaunchScreen.storyboard */; };
+		AC99D8C922E130A300E57D04 /* QlueToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8C822E130A300E57D04 /* QlueToDoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC99D8C522E130A300E57D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC99D8A522E130A000E57D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC99D8AC22E130A000E57D04;
+			remoteInfo = QlueToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC99D8AD22E130A000E57D04 /* QlueToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QlueToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC99D8B022E130A000E57D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC99D8B222E130A000E57D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC99D8B522E130A000E57D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC99D8B822E130A100E57D04 /* QlueToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QlueToDo.xcdatamodel; sourceTree = "<group>"; };
+		AC99D8BA22E130A200E57D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC99D8BD22E130A200E57D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC99D8BF22E130A200E57D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC99D8C422E130A300E57D04 /* QlueToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlueToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC99D8C822E130A300E57D04 /* QlueToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlueToDoTests.swift; sourceTree = "<group>"; };
+		AC99D8CA22E130A300E57D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC99D8AA22E130A000E57D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC99D8C122E130A300E57D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC99D8A422E130A000E57D04 = {
+			isa = PBXGroup;
+			children = (
+				AC99D8AF22E130A000E57D04 /* QlueToDo */,
+				AC99D8C722E130A300E57D04 /* QlueToDoTests */,
+				AC99D8AE22E130A000E57D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC99D8AE22E130A000E57D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC99D8AD22E130A000E57D04 /* QlueToDo.app */,
+				AC99D8C422E130A300E57D04 /* QlueToDoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC99D8AF22E130A000E57D04 /* QlueToDo */ = {
+			isa = PBXGroup;
+			children = (
+				AC99D8B022E130A000E57D04 /* AppDelegate.swift */,
+				AC99D8B222E130A000E57D04 /* ViewController.swift */,
+				AC99D8B422E130A000E57D04 /* Main.storyboard */,
+				AC99D8BA22E130A200E57D04 /* Assets.xcassets */,
+				AC99D8BC22E130A200E57D04 /* LaunchScreen.storyboard */,
+				AC99D8BF22E130A200E57D04 /* Info.plist */,
+				AC99D8B722E130A100E57D04 /* QlueToDo.xcdatamodeld */,
+			);
+			path = QlueToDo;
+			sourceTree = "<group>";
+		};
+		AC99D8C722E130A300E57D04 /* QlueToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC99D8C822E130A300E57D04 /* QlueToDoTests.swift */,
+				AC99D8CA22E130A300E57D04 /* Info.plist */,
+			);
+			path = QlueToDoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC99D8AC22E130A000E57D04 /* QlueToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC99D8CD22E130A300E57D04 /* Build configuration list for PBXNativeTarget "QlueToDo" */;
+			buildPhases = (
+				AC99D8A922E130A000E57D04 /* Sources */,
+				AC99D8AA22E130A000E57D04 /* Frameworks */,
+				AC99D8AB22E130A000E57D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlueToDo;
+			productName = QlueToDo;
+			productReference = AC99D8AD22E130A000E57D04 /* QlueToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC99D8C322E130A300E57D04 /* QlueToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC99D8D022E130A300E57D04 /* Build configuration list for PBXNativeTarget "QlueToDoTests" */;
+			buildPhases = (
+				AC99D8C022E130A300E57D04 /* Sources */,
+				AC99D8C122E130A300E57D04 /* Frameworks */,
+				AC99D8C222E130A300E57D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC99D8C622E130A300E57D04 /* PBXTargetDependency */,
+			);
+			name = QlueToDoTests;
+			productName = QlueToDoTests;
+			productReference = AC99D8C422E130A300E57D04 /* QlueToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC99D8A522E130A000E57D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LevUp;
+				TargetAttributes = {
+					AC99D8AC22E130A000E57D04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AC99D8C322E130A300E57D04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC99D8AC22E130A000E57D04;
+					};
+				};
+			};
+			buildConfigurationList = AC99D8A822E130A000E57D04 /* Build configuration list for PBXProject "QlueToDo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC99D8A422E130A000E57D04;
+			productRefGroup = AC99D8AE22E130A000E57D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC99D8AC22E130A000E57D04 /* QlueToDo */,
+				AC99D8C322E130A300E57D04 /* QlueToDoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC99D8AB22E130A000E57D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99D8BE22E130A200E57D04 /* LaunchScreen.storyboard in Resources */,
+				AC99D8BB22E130A200E57D04 /* Assets.xcassets in Resources */,
+				AC99D8B622E130A100E57D04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC99D8C222E130A300E57D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC99D8A922E130A000E57D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99D8B322E130A000E57D04 /* ViewController.swift in Sources */,
+				AC99D8B922E130A100E57D04 /* QlueToDo.xcdatamodeld in Sources */,
+				AC99D8B122E130A000E57D04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC99D8C022E130A300E57D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC99D8C922E130A300E57D04 /* QlueToDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC99D8C622E130A300E57D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC99D8AC22E130A000E57D04 /* QlueToDo */;
+			targetProxy = AC99D8C522E130A300E57D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC99D8B422E130A000E57D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC99D8B522E130A000E57D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC99D8BC22E130A200E57D04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC99D8BD22E130A200E57D04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC99D8CB22E130A300E57D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC99D8CC22E130A300E57D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC99D8CE22E130A300E57D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH2U443B3J;
+				INFOPLIST_FILE = QlueToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.shinmi.QlueToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC99D8CF22E130A300E57D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH2U443B3J;
+				INFOPLIST_FILE = QlueToDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.shinmi.QlueToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC99D8D122E130A300E57D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH2U443B3J;
+				INFOPLIST_FILE = QlueToDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.shinmi.QlueToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QlueToDo.app/QlueToDo";
+			};
+			name = Debug;
+		};
+		AC99D8D222E130A300E57D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH2U443B3J;
+				INFOPLIST_FILE = QlueToDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.shinmi.QlueToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QlueToDo.app/QlueToDo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC99D8A822E130A000E57D04 /* Build configuration list for PBXProject "QlueToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC99D8CB22E130A300E57D04 /* Debug */,
+				AC99D8CC22E130A300E57D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC99D8CD22E130A300E57D04 /* Build configuration list for PBXNativeTarget "QlueToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC99D8CE22E130A300E57D04 /* Debug */,
+				AC99D8CF22E130A300E57D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC99D8D022E130A300E57D04 /* Build configuration list for PBXNativeTarget "QlueToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC99D8D122E130A300E57D04 /* Debug */,
+				AC99D8D222E130A300E57D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC99D8B722E130A100E57D04 /* QlueToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC99D8B822E130A100E57D04 /* QlueToDo.xcdatamodel */,
+			);
+			currentVersion = AC99D8B822E130A100E57D04 /* QlueToDo.xcdatamodel */;
+			path = QlueToDo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC99D8A522E130A000E57D04 /* Project object */;
+}
