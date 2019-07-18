@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8F230D920A5C802EC9B3EE9 /* Pods_QlueToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A6BD489138F24D81A8C523 /* Pods_QlueToDo.framework */; };
 		AC99D8B122E130A000E57D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8B022E130A000E57D04 /* AppDelegate.swift */; };
 		AC99D8B322E130A000E57D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8B222E130A000E57D04 /* ViewController.swift */; };
 		AC99D8B622E130A100E57D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8B422E130A000E57D04 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		AC99D8BB22E130A200E57D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8BA22E130A200E57D04 /* Assets.xcassets */; };
 		AC99D8BE22E130A200E57D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8BC22E130A200E57D04 /* LaunchScreen.storyboard */; };
 		AC99D8C922E130A300E57D04 /* QlueToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8C822E130A300E57D04 /* QlueToDoTests.swift */; };
+		AC99D8D522E1339F00E57D04 /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8D422E1339F00E57D04 /* NetworkAdapter.swift */; };
+		AC99D8D722E133E200E57D04 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8D622E133E200E57D04 /* Environment.swift */; };
+		AC99D8D922E133FD00E57D04 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99D8D822E133FD00E57D04 /* ServiceAPI.swift */; };
+		AC99D8DB22E1344F00E57D04 /* DataApp.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC99D8DA22E1344F00E57D04 /* DataApp.plist */; };
+		BF6B47713A3792112D2E3AE2 /* Pods_QlueToDoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A327FC23FFBFE277A87C09 /* Pods_QlueToDoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6929862E7F80E81B384F63 /* Pods-QlueToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QlueToDo.release.xcconfig"; path = "Target Support Files/Pods-QlueToDo/Pods-QlueToDo.release.xcconfig"; sourceTree = "<group>"; };
+		328CF1BEB2B231E05E90D002 /* Pods-QlueToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QlueToDo.debug.xcconfig"; path = "Target Support Files/Pods-QlueToDo/Pods-QlueToDo.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0F7E8BF053A1044B057F49 /* Pods-QlueToDoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QlueToDoTests.debug.xcconfig"; path = "Target Support Files/Pods-QlueToDoTests/Pods-QlueToDoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67A327FC23FFBFE277A87C09 /* Pods_QlueToDoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QlueToDoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC99D8AD22E130A000E57D04 /* QlueToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QlueToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC99D8B022E130A000E57D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC99D8B222E130A000E57D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +48,12 @@
 		AC99D8C422E130A300E57D04 /* QlueToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlueToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC99D8C822E130A300E57D04 /* QlueToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlueToDoTests.swift; sourceTree = "<group>"; };
 		AC99D8CA22E130A300E57D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC99D8D422E1339F00E57D04 /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		AC99D8D622E133E200E57D04 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		AC99D8D822E133FD00E57D04 /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
+		AC99D8DA22E1344F00E57D04 /* DataApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataApp.plist; sourceTree = "<group>"; };
+		B251FD7680BF8030DB0C9404 /* Pods-QlueToDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QlueToDoTests.release.xcconfig"; path = "Target Support Files/Pods-QlueToDoTests/Pods-QlueToDoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3A6BD489138F24D81A8C523 /* Pods_QlueToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QlueToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F230D920A5C802EC9B3EE9 /* Pods_QlueToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6B47713A3792112D2E3AE2 /* Pods_QlueToDoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38F3DDDE744405C2EC1AAA33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A6BD489138F24D81A8C523 /* Pods_QlueToDo.framework */,
+				67A327FC23FFBFE277A87C09 /* Pods_QlueToDoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC99D8A422E130A000E57D04 = {
 			isa = PBXGroup;
 			children = (
 				AC99D8AF22E130A000E57D04 /* QlueToDo */,
 				AC99D8C722E130A300E57D04 /* QlueToDoTests */,
 				AC99D8AE22E130A000E57D04 /* Products */,
+				FC00272F2D44A7CD5C33E3DC /* Pods */,
+				38F3DDDE744405C2EC1AAA33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +108,7 @@
 		AC99D8AF22E130A000E57D04 /* QlueToDo */ = {
 			isa = PBXGroup;
 			children = (
+				AC99D8D322E131FB00E57D04 /* Networking */,
 				AC99D8B022E130A000E57D04 /* AppDelegate.swift */,
 				AC99D8B222E130A000E57D04 /* ViewController.swift */,
 				AC99D8B422E130A000E57D04 /* Main.storyboard */,
@@ -86,6 +116,7 @@
 				AC99D8BC22E130A200E57D04 /* LaunchScreen.storyboard */,
 				AC99D8BF22E130A200E57D04 /* Info.plist */,
 				AC99D8B722E130A100E57D04 /* QlueToDo.xcdatamodeld */,
+				AC99D8DA22E1344F00E57D04 /* DataApp.plist */,
 			);
 			path = QlueToDo;
 			sourceTree = "<group>";
@@ -99,6 +130,28 @@
 			path = QlueToDoTests;
 			sourceTree = "<group>";
 		};
+		AC99D8D322E131FB00E57D04 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AC99D8D422E1339F00E57D04 /* NetworkAdapter.swift */,
+				AC99D8D622E133E200E57D04 /* Environment.swift */,
+				AC99D8D822E133FD00E57D04 /* ServiceAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FC00272F2D44A7CD5C33E3DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328CF1BEB2B231E05E90D002 /* Pods-QlueToDo.debug.xcconfig */,
+				1D6929862E7F80E81B384F63 /* Pods-QlueToDo.release.xcconfig */,
+				4F0F7E8BF053A1044B057F49 /* Pods-QlueToDoTests.debug.xcconfig */,
+				B251FD7680BF8030DB0C9404 /* Pods-QlueToDoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC99D8CD22E130A300E57D04 /* Build configuration list for PBXNativeTarget "QlueToDo" */;
 			buildPhases = (
+				0DCB3D3D14A154B3E91475EA /* [CP] Check Pods Manifest.lock */,
 				AC99D8A922E130A000E57D04 /* Sources */,
 				AC99D8AA22E130A000E57D04 /* Frameworks */,
 				AC99D8AB22E130A000E57D04 /* Resources */,
+				3E57531B1801A2142425DEE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC99D8D022E130A300E57D04 /* Build configuration list for PBXNativeTarget "QlueToDoTests" */;
 			buildPhases = (
+				817993C4AE580C7015A2203E /* [CP] Check Pods Manifest.lock */,
 				AC99D8C022E130A300E57D04 /* Sources */,
 				AC99D8C122E130A300E57D04 /* Frameworks */,
 				AC99D8C222E130A300E57D04 /* Resources */,
@@ -182,6 +238,7 @@
 			files = (
 				AC99D8BE22E130A200E57D04 /* LaunchScreen.storyboard in Resources */,
 				AC99D8BB22E130A200E57D04 /* Assets.xcassets in Resources */,
+				AC99D8DB22E1344F00E57D04 /* DataApp.plist in Resources */,
 				AC99D8B622E130A100E57D04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +252,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DCB3D3D14A154B3E91475EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QlueToDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E57531B1801A2142425DEE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QlueToDo/Pods-QlueToDo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QlueToDo/Pods-QlueToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817993C4AE580C7015A2203E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QlueToDoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC99D8A922E130A000E57D04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,7 +334,10 @@
 			files = (
 				AC99D8B322E130A000E57D04 /* ViewController.swift in Sources */,
 				AC99D8B922E130A100E57D04 /* QlueToDo.xcdatamodeld in Sources */,
+				AC99D8D522E1339F00E57D04 /* NetworkAdapter.swift in Sources */,
 				AC99D8B122E130A000E57D04 /* AppDelegate.swift in Sources */,
+				AC99D8D922E133FD00E57D04 /* ServiceAPI.swift in Sources */,
+				AC99D8D722E133E200E57D04 /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +497,7 @@
 		};
 		AC99D8CE22E130A300E57D04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328CF1BEB2B231E05E90D002 /* Pods-QlueToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +516,7 @@
 		};
 		AC99D8CF22E130A300E57D04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6929862E7F80E81B384F63 /* Pods-QlueToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +535,7 @@
 		};
 		AC99D8D122E130A300E57D04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F7E8BF053A1044B057F49 /* Pods-QlueToDoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +557,7 @@
 		};
 		AC99D8D222E130A300E57D04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B251FD7680BF8030DB0C9404 /* Pods-QlueToDoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
