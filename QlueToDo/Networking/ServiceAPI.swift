@@ -6,45 +6,74 @@
 //  Copyright © 2019 LevUp. All rights reserved.
 //
 
-import Foundation
+import Moya
 
 enum ServiceAPI {
-    case post, user, todos
-    var urlPath: String {
+    case getList, user, todos, posting(id: Int)
+}
+
+extension ServiceAPI: TargetType {
+    var headers: [String : String]? {
         switch self {
-        case .post
-            return "/posts"
+        default:
+            let parameters = ["Content-Type":"application/json","Accept":"application/json"]
+            return parameters
+        }
+    }
+    var baseURL: URL {return URL(string: "https://jsonplaceholder.typicode.com")!}
+    var path: String {
+        switch self {
+        case .posting(let id):
+            return "/posts/\(id)"
         case .user:
             return "/users"
         case .todos:
             return "/todos"
+        default:
+            return "/posts"
         }
     }
     
-    var method: String {
+    var parameters: [String: Any]? {
+        return nil
+    }
+    
+    var method: Moya.Method {
         switch self {
+        case .posting:
+            return .post
         default:
-            return "GET"
+            return .get
         }
     }
     
-    var paramaters: String {
+    var parameterEncoding: ParameterEncoding {
         switch self {
-        case .content(limit: let limit):
-            return "&limit=\(limit)"
+        case .posting:
+            return JSONEncoding.default
         default:
-            return ""
+            return URLEncoding.default
         }
     }
     
-    var keyPersistent: String {
+    var sampleData: Data {
+        return Data()
+    }
+    
+    // Helper
+    private func jsonSerializedUTF8(json: [String: Any]) -> Data {
+        return try! JSONSerialization.data(
+            withJSONObject: json,
+            options: [.prettyPrinted]
+        )
+    }
+    
+    var task: Task {
         switch self {
-        case .content:
-            return "content_news"
-        case .search:
-            return "search"
+        case .posting:
+            return .requestParameters(parameters: [:], encoding: JSONEncoding.default)
         default:
-            return "default"
+            return .requestPlain
         }
     }
 }
